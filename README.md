@@ -5,7 +5,7 @@ I initially wrote separate programs to generate and solve Infinity Loop puzzles 
 
 This new version implements the generator and the solver in one program, with some additional options available when generating puzzles that are described below.
 
-* How to compile the program *
+* How to compile the program
 
 The main module infinity_loop.c is using functions implemented in the below modules:
 - mp_utils.c: big integer management
