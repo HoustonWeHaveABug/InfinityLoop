@@ -15,7 +15,7 @@ They need to be compiled and linked with the main module by either using the mak
 
 ## How to use the program
 
-The below table shows which parameters are expected on the standard input depending on if you want to use the generator or the solver
+The below table shows which parameters are expected on the standard input depending on if you want to use the generator or the solver:
 
 | Parameter | Used by generator | Used by solver | Constraint |
 |-----------|-------------------|----------------|------------|
