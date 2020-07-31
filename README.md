@@ -17,14 +17,14 @@ They need to be compiled and linked with the main module by either using the mak
 
 The below table shows which parameters are expected on the standard input depending on if you want to use the generator or the solver
 
-Parameter | Used by generator | Used by solver | Constraint
------------------------------------------------------------
-Number of rows | X | X | > 0
-Number of columns | X | X | > 0
-Generate flag | X | X | 1 for generator,  0 for solver
-Unique solution flag | X || 1 to generate a puzzle that has a unique solution, 0 otherwise
-Minimum number of edges | X || 1 or 2
-Tiles data  || X | rows x columns numbers between 0 and 15 (\*)
+| Parameter | Used by generator | Used by solver | Constraint |
+|-----------|-------------------|----------------|------------|
+| Number of rows | X | X | > 0 |
+| Number of columns | X | X | > 0 |
+| Generate flag | X | X | 1 for generator,  0 for solver |
+| Unique solution flag | X || 1 to generate a puzzle that has a unique solution, 0 otherwise |
+| Minimum number of edges | X || 1 or 2 |
+| Tiles data  || X | rows x columns numbers between 0 and 15 (\*) |
 
 (\*) Each tile is described by the sum of the below values
 - 1 = a pipe connects with the tile in previous row / same column
