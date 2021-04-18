@@ -46,5 +46,5 @@ unsigned long mtrand(void) {
 }
 
 unsigned long emtrand(unsigned long v) {
-	return (unsigned long)(mtrand()/(ULONG_MAX+1.0)*v);
+	return (unsigned long)((double)mtrand()/((double)0xffffffffUL+1.0)*(double)v);
 }
