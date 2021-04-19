@@ -1,4 +1,3 @@
-#include <limits.h>
 #include "mtrand.h"
 
 #define N 624UL
